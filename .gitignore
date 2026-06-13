@@ -15,6 +15,12 @@ env/
 outputs/
 *.log
 
+# Personal notes / local planning records
+开发记录/
+设计路线/
+dev_issues/
+design_thoughts/
+
 # Streamlit
 .streamlit/secrets.toml
 
@@ -28,4 +34,3 @@ data/mock_db/*.sqlite3
 Thumbs.db
 .vscode/
 .idea/
-
