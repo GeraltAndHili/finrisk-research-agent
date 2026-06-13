@@ -1,0 +1,38 @@
+[
+  {
+    "head": "产品A",
+    "relation": "holds",
+    "tail": "万科债券",
+    "weight": 0.86
+  },
+  {
+    "head": "万科债券",
+    "relation": "issued_by",
+    "tail": "万科",
+    "weight": 0.95
+  },
+  {
+    "head": "万科",
+    "relation": "belongs_to",
+    "tail": "房地产",
+    "weight": 0.9
+  },
+  {
+    "head": "房地产",
+    "relation": "affected_by",
+    "tail": "地产销售压力",
+    "weight": 0.75
+  },
+  {
+    "head": "融资环境收紧",
+    "relation": "impacts",
+    "tail": "万科",
+    "weight": 0.72
+  },
+  {
+    "head": "万科",
+    "relation": "impacts",
+    "tail": "产品A",
+    "weight": 0.68
+  }
+]
